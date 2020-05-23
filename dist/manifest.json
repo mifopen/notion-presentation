@@ -1,0 +1,14 @@
+{
+    "name": "Notion Presentation",
+    "description": "Turn your Notion into Slides",
+    "version": "0.1",
+    "permissions": ["activeTab"],
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*.notion.so/*"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

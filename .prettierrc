@@ -1,0 +1,13 @@
+{
+    "tabWidth": 4,
+    "arrowParens": "always",
+    "printWidth": 100,
+    "overrides": [
+        {
+            "files": "*.less",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "notion-presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mifopen/notion-presentation.git",
+  "author": "mif <mif.open@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0"
+  }
+}
